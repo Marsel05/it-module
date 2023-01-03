@@ -1,0 +1,489 @@
+@media (max-width: 1440px) {
+
+}
+@media (max-width: 1200px) {
+    .hero-info h1 {
+        font-size: 30px;
+    }
+    .hero-info p {
+        font-size: 17px;
+    }
+    .kurse-kubs {
+
+        flex-direction: column;
+    }
+    .kub {
+        width: 634px;
+        margin: 25px 0;
+        height: 250px;
+        animation:  kub 3s ease-in-out;
+    }
+    @keyframes kub {
+        0%{
+            transform: translateX(-500px);
+        }
+
+    }
+    .kub p {
+        width: 567px;
+    }
+    .kurs-info h1 {
+        margin: 0 0 45px 450px;
+    }
+    .bot1 {
+        margin: 35px 45px;
+    }
+    .bot2 {
+        margin: 35px 45px;
+    }
+    .bot3 {
+        margin: 35px 45px;
+    }
+    .kurse button {
+        margin: 50px 0 0 440px;
+    }
+    .master-info h1 {
+        margin: 0 0 45px 384px;
+    }
+    .master button {
+        margin: 50px 0 0 408px;
+    }
+    .store-years {
+        flex-direction: column;
+    }
+    .year {
+        width: 543px;
+        height: 374px;
+        padding: 0 0 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 35px;
+    }
+    .class-btn button {
+        padding: 10px 43px;
+        margin: 0 5px 0 17px;
+    }
+    #header {
+        padding: 20px 0;
+    }
+    .people-block p {
+        width: 340px;
+    }
+    .group{
+        width: 295px;
+    }
+    .people-block img {
+        padding: 0 0 0 128px;
+    }
+.name-info{
+    animation: info 3s ease-in-out;
+}
+@keyframes info {
+    0%{
+        transform: translateX(-500px);
+    }
+}
+}
+@media (max-width: 992px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .hero-info p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .hero-info h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #kurse {
+        padding: 330px 0 70px 0;
+    }
+
+    .image {
+        right: 60px;
+        top: 200px;
+    }
+
+    .image1 {
+        right: -133px;
+        top: 160px;
+    }
+
+    .image2 {
+        right: -27px;
+        top: 129px;
+    }
+
+    .image3 {
+        right: 20px;
+        top: 297px;
+    }
+
+    .image4 {
+        right: -43px;
+        top: 283px;
+    }
+
+    .image5 {
+        right: -122px;
+        top: 258px;
+    }
+
+    .image6 {
+        right: -116px;
+        top: 355px;
+    }
+
+    .image7 {
+        right: -188px;
+        top: 320px;
+    }
+
+    .image8 {
+        right: -259px;
+        top: 283px;
+    }
+
+    .image9 {
+        right: -206px;
+        top: 158px;
+    }
+
+    .image10 {
+        right: -247px;
+        top: 70px;
+    }
+
+    .image11 {
+        right: -114px;
+        top: 68px;
+    }
+
+    .image12 {
+        right: -30px;
+        top: -13px;
+    }
+
+    .image13 {
+        right: 58px;
+        top: 39px;
+    }
+
+    #kurse {
+        padding: 401px 0 70px 0;
+    }
+
+    .bot1 {
+        width: 859px;
+    }
+
+    .bot2 {
+        width: 859px;
+    }
+
+    .bot3 {
+        width: 859px;
+    }
+
+    .master-info h1 {
+        margin: 0 0 45px 289px;
+    }
+
+    .kurse button {
+        margin: 50px 0 0 355px;
+    }
+
+    .master button {
+        margin: 50px 0 0 325px;
+    }
+
+    .people-block {
+        margin: 105px 15px 105px 120px;
+    }
+
+    .name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .people-block p {
+        width: 284px;
+    }
+
+    .people-block {
+        margin: 105px 15px 105px 274px;
+    }
+
+    .name-info p {
+        font-size: 20px;
+        text-align: center;
+        line-height: 25px;
+        margin-bottom: 51px;
+    }
+
+    .name-info h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .name-nav input {
+        background: rgba(27, 41, 89, 0.4);
+        border-radius: 10px;
+        width: 642px;
+        height: 69px;
+        color: #FFFFFF;
+        margin-bottom: 33px;
+        outline: none;
+    }
+
+    .name-nav p {
+        font-size: 19px;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        margin: 0 97px;
+    }
+
+    #footer {
+        padding: 199px 0 50px 0;
+    }
+
+    .footer-nav4 h3 {
+        font-weight: 500;
+    }
+
+    .footer-nav5 h3 {
+        font-weight: 500;
+    }
+
+    .hero-nav {
+        padding: 0 0 48px 0;
+    }
+}
+@media (max-width: 768px) {
+    .bot1 {
+        width: 675px;
+        margin: 35px 14px;
+    }
+    .bot2 {
+        width: 675px;
+        margin: 35px 14px;
+    }
+    .bot3 {
+        width: 675px;
+        margin: 35px 14px;
+    }
+    .kurse button {
+        margin: 50px 0 0 250px;
+    }
+    .master-info h1 {
+        margin: 0 0 45px 200px;
+    }
+    .master button {
+        margin: 50px 0 0 221px;
+    }
+    .people-blocks {
+
+        width: 90%;
+    }
+    .footer {
+        margin: 0 47px;
+    }
+    .header-nav a {
+        padding: 0 15px;
+    }
+    .kurs-info h1 {
+        margin: 0 0 45px 275px;
+    }
+
+.swiper-slide{
+    width:286px!important;
+}
+
+
+
+}
+@media (max-width: 414px) {
+    .header-nav a {
+        padding: 0 2px;
+        font-size: 0;
+    }
+    .hero-info h1 {
+        font-size: 26px;
+    }
+    .hero-info p {
+        font-size: 14px;
+    width: 410px;
+        line-height: 20px;
+text-align: center;
+    }
+    .image {
+        width: 139px;
+    }
+    .image1 {
+        width: 320px;
+    }
+    .image2 {
+        right: -19px;
+        top: 123px;
+        width: 139px;
+    }
+    .image3 {
+        top: 283px;
+    }
+    .image4 {
+        right: -54px;
+        top: 266px;
+    }
+    .image5 {
+        width: 79px;
+        top: 247px;
+    }
+    .image6 {
+       width: 65px;
+        right: -77px;
+        top: 347px;
+    }
+    .image7 {
+       width: 65px;
+        right: -136px;
+        top: 319px;
+    }
+    .image8 {
+       width: 65px;
+        right: -195px;
+        top: 289px;
+    }
+    .image9 {
+     width: 45px;
+        right: -150px;
+        top: 172px;
+    }
+    .image10 {
+      width: 45px;
+        right: -154px;
+        top: 91px;
+    }
+    .image11 {
+      width: 45px;
+        right: -69px;
+        top: 106px;
+    }
+    .image12 {
+      width: 45px;
+        right: 1px;
+        top: 31px;
+    }
+    .image13 {
+    width: 45px;
+        right: 76px;
+        top: 52px;
+
+    }
+    .kurs-info h1 {
+        margin: 0 0 45px 125px;
+    }
+    .kub p {
+        width: 325px;
+    }
+    .kub {
+        width: 335px;
+        height: 275px;
+    }
+    .kurse button {
+        margin: 50px 0 0 87px;
+    }
+    .master-info h1 {
+        margin: 0 0 45px 30px;
+    }
+    .bot1 h2 {
+        font-size: 12px;
+        text-align: center;
+    }
+    .bot1 p {
+        font-size: 12px;
+
+        text-align: center;
+    }
+    .bot2 h2 {
+        font-size: 12px;
+
+        text-align: center;
+    }
+    .bot2 p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .bot3 h2 {
+        font-size: 12px;
+
+        text-align: center;
+    }
+    .bot3 p {
+        font-size: 12px;
+
+        text-align: center;
+    }
+    .bot1 {
+        width: 346px;
+
+    }
+    .bot2 {
+        width: 346px;
+    }
+    .bot3 {
+        width: 346px;
+    }
+    .master button {
+        margin: 50px 0 0 59px;
+    }
+    .year {
+        width: 373px;
+    }
+    .name-info h1 {
+        font-size: 26px;
+    }
+    .name-nav input {
+        width: 377px;
+        margin-bottom: 22px;
+    }
+    .name-nav button {
+        padding: 15px 57px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media (max-width: 320px) {
+
+}
